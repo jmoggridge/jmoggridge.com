@@ -28,7 +28,7 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "JRNL"
+  orgName = "JAM"
   orgLocal = "Toronto"
   description = "A blog about data analysis and R programming"
   favicon = "/img/favicon.ico"
@@ -41,14 +41,14 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/nudi.png"
+  sharing_image = "/img/"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "quaxlikeaduck"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "sky"
+  theme = "forest"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -61,7 +61,7 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Hyperlegible"
+  customtextFontFamily = "Metropolis"
   customheadingFontFamily = "Lobster"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
@@ -86,17 +86,17 @@ enableEmoji = true
   # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
   [[params.social]]
-      icon      = "github" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://github.com/jmoggridge/blogdown_hugoapero"
-  [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://twitter.com/quaxlikeaduck"
   [[params.social]]
-      icon      = "impactstory" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://impactstory.org/u/0000-0003-1291-5868/"
+      icon      = "github" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://github.com/jmoggridge/blogdown_hugoapero"
+  [[params.social]]
+      icon      = "smile" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "https://jmoggridge.github.io"
   [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
