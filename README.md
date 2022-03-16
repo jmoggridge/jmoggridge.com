@@ -20,3 +20,7 @@ blogdown::new_site(theme = "hugo-apero/hugo-apero",
 **Edited* the .toml file
 
 `blogdown::check_config()`
+
+**Don't use build site**
+
+Netlify can build the site at deploy
