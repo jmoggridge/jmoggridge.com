@@ -1,17 +1,21 @@
 ---
 ## Configure sidebar content in narrow column
-author: "Hugo Apéro"
-role: "A Hugo theme"
+author: "Jason Moggridge"
+role: "Data analyst"
 avatar_shape: rounded # circle, square, rounded, leave blank to exclude
 show_social_links: true # specify social accounts in site config
-audio_link_label: "How to say my name" # leave blank to exclude
-link_list_label: "Interests" # bookmarks, elsewhere, etc.
+audio_link_label: "" # leave blank to exclude
+link_list_label: "Projects" # bookmarks, elsewhere, etc.
 link_list:
-- name: Paris
-  url: https://en.wikipedia.org/wiki/Paris
-- name: Pastries
-  url: https://en.wikipedia.org/wiki/Pastry
-- name: People
+- name: (CUBE) COVID-19 in the Urban Build Environment
+  url: https://cube-ontario.github.io
+- name: GEMINI
+  url: https://www.geminimedicine.ca/data
+- name: Ottawa Bike Counters dashboard
+  url: https://jmoggridge.shinyapps.io/OttBikeCounters/
+- name: Ottawa Beaches dashboard
+  url: https://jmoggridge.shinyapps.io/OttawaBeaches/
+- name: COVID-19 Clinical Trials
   url: https://en.wikipedia.org/wiki/People
 ---
 
