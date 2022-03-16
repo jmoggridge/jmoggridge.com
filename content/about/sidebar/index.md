@@ -11,6 +11,8 @@ link_list:
   url: https://cube-ontario.github.io
 - name: GEMINI
   url: https://www.geminimedicine.ca/data
+- name: SGLT2Rx
+  url: https://www.sglt2rx.com/
 - name: Ottawa Bike Counters dashboard
   url: https://jmoggridge.shinyapps.io/OttBikeCounters/
 - name: Ottawa Beaches dashboard
