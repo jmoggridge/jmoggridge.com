@@ -31,9 +31,9 @@ enableEmoji = true
   orgName = "J.A.M."
   orgLocal = "Toronto, Canada"
   description = "A blog about data analysis and R programming"
-  favicon = "/img/favicon.ico"
+  favicon = "img/favicon.ico"
   logo = ""
-  mainSections = ["blog", "project", "talk"]
+  mainSections = ["blog", "project"]
   navallcaps = false
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -61,7 +61,7 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Metropolis"
+  customtextFontFamily = "Commissioner"
   customheadingFontFamily = "Lobster"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/

@@ -10,7 +10,7 @@ intro: |
   Check out my blog, projects, and other content below
 show_outro: true
 outro: |
-  ....
+  outro...
 ---
 
 ** index doesn't contain a body, just front matter above.
