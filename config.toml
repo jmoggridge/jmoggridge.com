@@ -1,7 +1,7 @@
 baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "while(forever)"
+title = "Jason A. Moggridge"
 author = "Jason A. Moggridge"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
@@ -28,20 +28,20 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "JAM"
-  orgLocal = "Toronto"
+  orgName = "J.A.M."
+  orgLocal = "Toronto, Canada"
   description = "A blog about data analysis and R programming"
   favicon = "/img/favicon.ico"
   logo = ""
   mainSections = ["blog", "project", "talk"]
-  navallcaps = true
+  navallcaps = false
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
   socialInHeader = false
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/"
+  sharing_image = "/img/friends.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "quaxlikeaduck"
   
@@ -140,11 +140,7 @@ enableEmoji = true
     title = "Contact form"
     url = "/contact/"
     weight = 2
-  [[menu.footer]]
-    name = "Contributors"
-    title = "Contributors"
-    url = "/contributors/"
-    weight = 3
+
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
