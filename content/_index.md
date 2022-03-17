@@ -8,9 +8,9 @@ images:
 - img/friends.png
 show_action_link: true
 show_social_links: true
-subtitle: ''
 text_align_left: false
 title: Jason A. Moggridge
+subtitle: ''
 type: home
 ---
 
