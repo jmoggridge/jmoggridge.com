@@ -16,7 +16,7 @@ show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: Jason A. Moggridge
-  description: "This is my blog about R\nI will write some stuff eventually! "
+  description: "A blog about programming for research. Mostly focused on data cleaning and analysis using R, using tidyverse, tidymodels, shiny, Rmarkdown, javascript, git and github among other tools."
   show_sidebar_adunit: false
   text_link_label: Subscribe via RSS
   text_link_url: /index.xml
