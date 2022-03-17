@@ -8,9 +8,7 @@ show_intro: true
 intro: |
   ## <code>while(forever)<code>
   Check out my blog, projects, and other content below
-show_outro: true
-outro: |
-  outro...
+show_outro: false
 ---
 
 ** index doesn't contain a body, just front matter above.

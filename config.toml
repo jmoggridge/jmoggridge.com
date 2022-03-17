@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://boring-hopper-6648ad.netlify.app/" # https://boring-hopper-6648ad.netlify.app/
 theme = "hugo-apero"
 languageCode = "en"
 title = "Jason A. Moggridge"
@@ -28,17 +28,17 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "J.A.M."
+  orgName = "J. Moggridge"
   orgLocal = "Toronto, Canada"
-  description = "A blog about data analysis and R programming"
-  favicon = "img/favicon.ico"
+  description = "data analysis and R programming"
+  favicon = ""
   logo = ""
   mainSections = ["blog", "project"]
   navallcaps = false
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
-  socialInHeader = false
-  socialInFooter = true
+  socialInHeader = true
+  socialInFooter = false
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/friends.jpg"
@@ -48,14 +48,14 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "forest"
+  theme = ""
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
   # the custom scss file must be in the assets/ folder
   # add the filename name here, without extension
   # to use hex colors instead of named tachyons colors, include "hex" in filename
-  custom_theme = "" 
+  custom_theme = "big_chungus" 
   
   # use an embedded font-family
   # serif options: Fraunces / EB Garamond / Bitter
