@@ -28,11 +28,11 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "JM"
+  orgName = ""
   orgLocal = ""
   description = "data analysis and R programming"
-  favicon = "img/favicon.ico"
-  logo = ""
+  favicon = "/img/favicon.ico"
+  logo = "" # "/img/logo.png"
   mainSections = ["blog", "project"]
   navallcaps = false
   # show/hide social icons in site header & footer
@@ -41,7 +41,7 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "img/friends.png"
+  sharing_image = "/img/friends.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "quaxlikeaduck"
   
@@ -61,7 +61,7 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Commissioner"
+  customtextFontFamily = "Metropolis"
   customheadingFontFamily = "Lobster"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
