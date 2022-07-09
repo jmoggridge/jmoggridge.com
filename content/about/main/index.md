@@ -6,7 +6,7 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  ## <code>while(forever)<code>
+  ## blog
   Check out my blog, projects, and other content below
 show_outro: false
 ---
