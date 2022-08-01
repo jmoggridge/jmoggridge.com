@@ -24,10 +24,6 @@ Assigning informative names to your projects, files, folders, and all other comp
 
 **Make it easy for anyone to figure out what is going on with your files**
 
-
-<div style="padding-top:56.250%;position:relative;">
-<iframe src="https://gifer.com/embed/3fkt" width="80%" height="80%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></iframe></div>
-
 ### Admit there's a problem
 
 First, let's pretend we created something and we want to close the document and still be able to find it later. We need to come up with a name memorable enough that we'll recall 'what that file was for' in the days, weeks, months, or possibly years that we'll keep it hanging around. What do we call it?
