@@ -56,11 +56,11 @@ An #rstats #blogdown file hierarchy cheatsheet:
 
 ### How to create a new post
 
-First:
+Easy to create: `blogdown:::new_post_addin()`
 
-Then:
-
-Finally:
+Then write: Find and edit the .md or .rmd in `_/content/blog/<post>/`
+    
+Finally: Add a thumb image as `featured.png` in `_/content/blog/<post>/` 
 
 
 -----
