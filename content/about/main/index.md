@@ -7,7 +7,7 @@ number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
   ## Blog
-  Check out my blog, projects, and other content below
+  Check out my blog, projects, and other content below. I'm trying to post content but I suck at this and apparently can't make a blogpost appear on deployment even though I can see it when. I. serve. the. site. locally. FUCKING PIECE OF SHIT
 show_outro: true
 ---
 

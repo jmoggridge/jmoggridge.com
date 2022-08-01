@@ -2,43 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on Jason A. Moggridge</title>
-    <link>https://boring-hopper-6648ad.netlify.app/blog/</link>
+    <link>https://jmoggridge.com/blog/</link>
     <description>Recent content in blog on Jason A. Moggridge</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://boring-hopper-6648ad.netlify.app/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Using panelsets</title>
-      <link>https://boring-hopper-6648ad.netlify.app/blog/seedling/</link>
-      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://boring-hopper-6648ad.netlify.app/blog/seedling/</guid>
-      <description>Courtesy of panelset.js by Garrick Aden-Buie, from his xaringanExtra package: https://pkg.garrickadenbuie.com/xaringanExtra/#/panelset
-For example, this panelset:
-Hello! 👋 hello
- Goodbye 💨 goodbye
-  Was created by combining this theme&amp;rsquo;s panelset and panel shortcodes:
-{{&amp;lt; panelset class=&amp;#34;greetings&amp;#34; &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Hello! :wave:&amp;#34; &amp;gt;}} hello {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Goodbye :dash:&amp;#34; &amp;gt;}} goodbye {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; /panelset &amp;gt;}} You could also revert to HTML as well. For example, this panelset:</description>
-    </item>
-    
-    <item>
-      <title>An Rmarkdown post</title>
-      <link>https://boring-hopper-6648ad.netlify.app/blog/rmarkdown/</link>
-      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://boring-hopper-6648ad.netlify.app/blog/rmarkdown/</guid>
-      <description> Air quality     with(airquality, boxplot(Temp ~ Month)) with(airquality, plot(Ozone ~ Temp)) mlev &amp;lt;- levels(with(airquality, as.factor(Month))) with(airquality, plot(Ozone ~ Temp, pch = as.numeric(mlev), col = mlev)) </description>
-    </item>
-    
-    <item>
-      <title>CSS Grid Scaffold</title>
-      <link>https://boring-hopper-6648ad.netlify.app/blog/css-grid-scaffold/</link>
-      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://boring-hopper-6648ad.netlify.app/blog/css-grid-scaffold/</guid>
-      <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.”     — Chris House, A Complete Guide to CSS Grid Layout 1
- Overview     Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips.</description>
-    </item>
-    
+    <language>en</language><atom:link href="https://jmoggridge.com/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

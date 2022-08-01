@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jason A. Moggridge</title>
-    <link>https://boring-hopper-6648ad.netlify.app/tags/</link>
+    <link>https://jmoggridge.com/tags/</link>
     <description>Recent content in Tags on Jason A. Moggridge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://boring-hopper-6648ad.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jmoggridge.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>hugo-site</title>
-      <link>https://boring-hopper-6648ad.netlify.app/tags/hugo-site/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      <title>CUBE</title>
+      <link>https://jmoggridge.com/tags/cube/</link>
+      <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://boring-hopper-6648ad.netlify.app/tags/hugo-site/</guid>
+      <guid>https://jmoggridge.com/tags/cube/</guid>
       <description></description>
     </item>
     
