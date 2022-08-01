@@ -17,7 +17,7 @@ show_post_thumbnail: true
 sidebar:
   author: Jason A. Moggridge
   description: "
-  This blog will talk about data analysis and programming (mostly), with some general musings about workflow for research scientists. I'll try to provide helpful code snippets for specific tasks that you might encounter as a data analyst, programmer, or researcher."
+  This blog will talk about bioinformatics, data analysis, and programming (mostly), with some general musings about workflow for research scientists. I'll try to provide helpful code snippets for specific tasks that you might encounter as a data analyst, programmer, or researcher."
   show_sidebar_adunit: false
   text_link_label: Subscribe via RSS
   text_link_url: /index.xml

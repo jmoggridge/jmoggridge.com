@@ -4,10 +4,12 @@ author: 'JA Moggridge'
 date: "2022-07-31T17:36:54-07:00"
 excerpt: If you're naming your files for your research work my_script.R or manuscript.docx or similar then we need to have the talk (about filenames).
 subtitle: "Turn chaos to order across your work-space"
-draft: no
+draft: false
 series: null
-tags: null
-categories: null
+tags: 
+- Workflow
+categories: 
+- Workflow
 layout: single
 ---
 
