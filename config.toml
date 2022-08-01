@@ -1,4 +1,4 @@
-baseURL = "https://jmoggridge.com/" # https://boring-hopper-6648ad.netlify.app/
+baseURL = "https://jmoggridge.com/" 
 theme = "hugo-apero"
 languageCode = "en"
 title = "Jason A. Moggridge"

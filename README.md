@@ -33,7 +33,7 @@ Use `blogdown::serve_site()` to serve the site locally for development and  `blo
 
 ### Deploy
 
-**Don't you dare use `build site`** on this project, or you will regret all the generated files; Netlify (or whatever cdn) can build the site at deploy time. I set up CI/CD through github and netlify, such that the build is performed whenever there are pushes to the 'main' branch.
+You can use build tools and `rmarkdown::clean_site(preview = FALSE)` to remove the generated files from /public. Netlify (or whatever cdn) can build the site at deploy time too but it's hard to troubleshoot that way. I set up CI/CD through github and netlify, such that the build is performed whenever there are pushes to the 'main' branch.
 
 ## Where to edit the blog theme
 

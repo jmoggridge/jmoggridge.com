@@ -1,28 +1,28 @@
 ---
 title: "Naming Files and Folders"
+author: 'JA Moggridge'
+date: "2022-07-31T17:36:54-07:00"
+excerpt: If you're naming your files for your research work my_script.R or manuscript.docx or similar then we need to have the talk (about filenames).
 subtitle: "Turn chaos to order across your work-space"
-excerpt: "If you're naming your files for your research work `my_script.R` or `manuscript.docx` or similar then we need to have *the talk* (about filenames)."
-date: 2022-07-31T17:36:54-07:00
-author: ""
-draft: true
-series:
-tags:
-categories:
-layout: single # single or single-sidebar
+draft: no
+series: null
+tags: null
+categories: null
+layout: single
 ---
 
-**If you're naming your files for your research work `my_script.R` or `manuscript.docx` or similar then 
-we need to have *the talk* (about filenames).**
-
+**If you're naming your files for your research work `my_script.R` or `manuscript.docx` or similar then we need to have *the talk* (about filenames).**
 
 ### Naming things is really hard
 
- Using vague names creates a massive amount of completely unnecessary *cognitive load* for yourself and your collaborators.
-Assigning informative names to your projects, files, folders, and all other computational resources is a learned skill but focusing some effort here will often help lubricate your path to success. Developing and sticking to a systematic way of naming files can be difficult, so this post tries to outline a set of basic principles for naming things. It's not perfect, but we have to start somewhere.
+Using vague names creates a massive amount of completely unnecessary *cognitive load* for yourself and your collaborators. Assigning informative names to your projects, files, folders, and all other computational resources is a learned skill but focusing some effort here will often help lubricate your path to success. Developing and sticking to a systematic way of naming files can be difficult, so this post tries to outline a set of basic principles for naming things. It's not perfect, but we have to start somewhere.
 
 ### One goal
 
-**Make it easy for anyone to figure out what is going on with your files**
+**Make it easy for anyone to figure out what is going on with your files.**
+
+<div style="padding-top:56.250%;position:relative;"><iframe src="https://gifer.com/embed/3fkt" width="100%" height="100%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></iframe></div>
+
 
 ### Admit there's a problem
 
@@ -36,16 +36,15 @@ The worst though, are the names that completely misrepresents the contents of th
 
 ### Encode purpose into names
 
-Information about the work should guide the naming for anything we might create. At a bare minimum, your names should be able to tell your future self or a collaboratorator what the contents are about. Here is a basic scheme:  `<project>_<task>.xyz`
+Information about the work should guide the naming for anything we might create. At a bare minimum, your names should be able to tell your future self or a collaboratorator what the contents are about. Here is a basic scheme: `<project>_<task>.xyz`
 
 ### Project-oriented workflow
 
-I'm a huge fan of a project-oriented structure for files, mostly because this works well for coding and version control with `git`. I do think this mentality extends well to no-code projects too though. Basically, all your files for a given project are kept in the same folder and that folder is named after your project. 
+I'm a huge fan of a project-oriented structure for files, mostly because this works well for coding and version control with `git`. I do think this mentality extends well to no-code projects too though. Basically, all your files for a given project are kept in the same folder and that folder is named after your project.
 
-    
 ### Code-based projects
 
-Some languages enforce file structure, but if you don't have that then you're going to have to develop your own way to organize and enforce it on yourself.   Personally, I always use a project-based workflow with different subdirectories for inputs, outputs, and code. For example, this is the file-tree (created with the cli tool `tree`) of an Rproject that runs script, `Emailer.R` that sends an automated report when new data arrives in a cloud storage bucket.
+Some languages enforce file structure, but if you don't have that then you're going to have to develop your own way to organize and enforce it on yourself. Personally, I always use a project-based workflow with different subdirectories for inputs, outputs, and code. For example, this is the file-tree (created with the cli tool `tree`) of an Rproject that runs script, `Emailer.R` that sends an automated report when new data arrives in a cloud storage bucket.
 
 Look at these beautiful names! I mean, sure they might not tell you everything about how the project works but I assure you their contents are related to their names, which are very informative. I am so very proud of these names.
 
@@ -68,5 +67,3 @@ Look at these beautiful names! I mean, sure they might not tell you everything a
     ├── Emailer.log
     ├── Emailer.Rproj
     └── scheduler.R
-    
-
