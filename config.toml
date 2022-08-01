@@ -61,8 +61,8 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Metropolis"
-  customheadingFontFamily = "Lobster"
+  customtextFontFamily = "Atkinson Hyperlegible"
+  customheadingFontFamily = "Metropolis"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
@@ -92,11 +92,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/jmoggridge/blogdown_hugoapero"
-  [[params.social]]
-      icon      = "smile" # icon name without the 'fa-'
-      icon_pack = "fas"
-      url       = "https://jmoggridge.github.io"
+      url       = "https://github.com/jmoggridge"
   [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
@@ -105,6 +101,10 @@ enableEmoji = true
       icon      = "rss" # icon name without the 'fa-'
       icon_pack = "fas"
       url       = "/blog/index.xml"
+  [[params.social]]
+      icon      = "file" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "https://jmoggridge.github.io"
 
 [taxonomies]
   category = "categories"

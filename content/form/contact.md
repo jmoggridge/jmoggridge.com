@@ -1,6 +1,6 @@
 ---
 date: "2019-02-25T13:38:41-06:00"
-description: This form is for contacting me about my work or to collaborate on projects. Please do not use this form to request coding help.
+description: This form is for contacting me about my work or to collaborate on projects.
 draft: false
 formspree_form_id: xqknldyw
 layout: split-left
@@ -8,7 +8,7 @@ name: Contact Us Form
 show_poweredby_formspree: true
 show_social_links: true
 submit_button_label: Send Message
-title: Say hello!
+title: Send me a message!
 type: form
 url: contact
 ---

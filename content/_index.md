@@ -4,7 +4,7 @@ action_link: /about
 action_type: text
 description: |
     <br>
-    I am a data analyst working in biomedical research.<br> I clean and analyse data, generate plots, models, and statistics to answer questions, and communicate my findings with dynamic reports and interactive dashboards. I program in R, python, and javascript. 
+    I'm a bioinformatician working in biomedical research. I extract knowledge from complex data using code and build software tools to help other scientists with their own research and publishing. 
     <br>
 image_left: true
 images:

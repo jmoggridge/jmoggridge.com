@@ -4,7 +4,7 @@ cascade:
 description: |
   A blog by Jason Moggridge
 show_header: true
-sidebar_left: false
+sidebar_left: true
 title: About
 ---
 

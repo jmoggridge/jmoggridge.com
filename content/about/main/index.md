@@ -6,9 +6,9 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  ## blog
+  ## Blog
   Check out my blog, projects, and other content below
-show_outro: false
+show_outro: true
 ---
 
 ** index doesn't contain a body, just front matter above.

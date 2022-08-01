@@ -16,7 +16,8 @@ show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: Jason A. Moggridge
-  description: "A blog about programming for research. Mostly focused on data cleaning and analysis using R, using tidyverse, tidymodels, shiny, Rmarkdown, javascript, git and github among other tools."
+  description: "
+  This blog will talk about data analysis and programming (mostly), with some general musings about workflow for research scientists. I'll try to provide helpful code snippets for specific tasks that you might encounter as a data analyst, programmer, or researcher."
   show_sidebar_adunit: false
   text_link_label: Subscribe via RSS
   text_link_url: /index.xml
