@@ -6,12 +6,12 @@ description: |
     <br>
     I'm a bioinformatician working in biomedical research. I extract knowledge from complex data using code and build software tools to help other scientists with their own research and publishing. 
     <br>
-image_left: false
+image_left: true
 images:
 - img/friends.png
 show_action_link: true
 show_social_links: true
-text_align_left: false
+text_align_left: true
 title: Jason A. Moggridge
 subtitle: 'Research assistant and data analyst @ LTRI'
 type: home

@@ -1,6 +1,6 @@
 ---
 title: jrnowl
-author: Jason Moggridge
+author: 
 categories:
 - Research
 - Software tools
@@ -10,9 +10,9 @@ excerpt: If you have ever submitted an article for publication before, you know 
 featured: true
 layout: single-sidebar
 links:
-- icon: browser
+- icon: 'laptop-code'
   icon_pack: fas
-  name: jrnowl website
+  name: 'jrnowl'
   url: https://jrnowl.com
 subtitle: "Let us provide the roadmap for your next journal submission"
 ---
