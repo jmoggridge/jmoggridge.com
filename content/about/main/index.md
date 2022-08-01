@@ -4,10 +4,10 @@ title: "" # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
-show_intro: true
+show_intro: false
 intro: |
   ## Blog
-  Check out my blog, projects, and other content below. I'm trying to post content but I suck at this and apparently can't make a blogpost appear on deployment even though I can see it when. I. serve. the. site. locally. FUCKING PIECE OF SHIT
+  Check out my blog, projects, and other content below. I'm trying to post content but I suck at this and apparently can't make a blogpost appear on deployment even though I can see it when. I. serve. the. site. locally. 
 show_outro: true
 ---
 
