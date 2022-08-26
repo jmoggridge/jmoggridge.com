@@ -1,0 +1,76 @@
+---
+title: Scrape a table from Wikipedia using R with the rvest package
+subtitle: ...without knowing anything about xml or css
+author: Jason A. Moggridge
+date: '2022-08-26'
+slug: []
+excerpt: "Easy web scraping with R"
+categories:
+  - Coding
+tags:
+  - R
+  - Tutorial
+---
+
+
+
+<p>We want to download and parse the table on this page: “<a href="https://en.wikipedia.org/wiki/List_of_academic_publishers_by_preprint_policy" class="uri">https://en.wikipedia.org/wiki/List_of_academic_publishers_by_preprint_policy</a>”</p>
+<p>We’ll use the <code>tidyverse</code> and <code>rvest</code> packages to make this easier for us.</p>
+<pre class="r"><code># install.packages(c(&#39;tidyverse&#39;, &#39;rvest&#39;))
+library(tidyverse)
+library(rvest)
+
+# This is our url
+my_url &lt;- 
+  &quot;https://en.wikipedia.org/wiki/List_of_academic_publishers_by_preprint_policy&quot;</code></pre>
+<p>Now to get the table: we use <code>read_html()</code> to get the entire html content; <code>html_node()</code> extracts the first table; then <code>html_table()</code> parses that element into an R data.frame that is easy to work with.</p>
+<pre class="r"><code>my_table &lt;- 
+  my_url |&gt; 
+  rvest::read_html() |&gt;
+  rvest::html_node(&#39;table&#39;) |&gt; 
+  rvest::html_table()
+
+my_table</code></pre>
+<pre><code>## # A tibble: 69 × 5
+##    Publisher                                      Restr…¹ Restr…² Restr…³ Source
+##    &lt;chr&gt;                                          &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt; 
+##  1 Publisher                                      Locati… Version License Source
+##  2 American Association for the Advancement of S… Not-fo… Unrest… Unrest… [2]   
+##  3 American Association for Cancer Research       Unrest… Must n… Unrest… [3]   
+##  4 American Association for Physics in Medicine   Non-co… Unrest… Unrest… [4]   
+##  5 American Chemical Society                      Unrest… Unrest… Unrest… [5]   
+##  6 Association for Computing Machinery            Non-co… Unrest… Unrest… [6]   
+##  7 American Geophysical Union                     Unrest… Unrest… Unrest… [7]   
+##  8 American Heart Association                     Unrest… Versio… Unrest… [8]   
+##  9 American Institute of Physics                  Unrest… Unrest… Unrest… [9]   
+## 10 American Institute of Aeronautics and Astrona… Unrest… Unrest… Unrest… [10]  
+## # … with 59 more rows, and abbreviated variable names ¹​Restrictions,
+## #   ²​Restrictions, ³​Restrictions</code></pre>
+<p>And we’re done! Just kidding, the parser had a bit of trouble with the double header rows, where the three columns <code>Location</code>, <code>Version</code>, and <code>License</code> were grouped under <code>Restriction</code>. Currently, those three columns are named <code>Restriction</code>; that’s not good - we need unique names to differentiate them.</p>
+<p>To fix this, we’ll just use the first row of the table to set the column names and then drop the first row from the table with <code>slice()</code>.</p>
+<pre class="r"><code>fixed_table &lt;- 
+  my_table |&gt; 
+  rlang::set_names(my_table[1,]) |&gt;
+  dplyr::slice(-1)</code></pre>
+<p>Finally, I don’t need the <code>source</code> column since I didn’t scrape the links for those and I’m not too worried about verifying these data anyway. I’ll make the names lower snake-case with <code>janitor::clean_names()</code> since I’m OCD.</p>
+<pre class="r"><code>preprint_policy &lt;- 
+  fixed_table |&gt; 
+  select(-Source) |&gt; 
+  janitor::clean_names() |&gt; 
+  print()</code></pre>
+<pre><code>## # A tibble: 68 × 4
+##    publisher                                           location  version license
+##    &lt;chr&gt;                                               &lt;chr&gt;     &lt;chr&gt;   &lt;chr&gt;  
+##  1 American Association for the Advancement of Science Not-for-… Unrest… Unrest…
+##  2 American Association for Cancer Research            Unrestri… Must n… Unrest…
+##  3 American Association for Physics in Medicine        Non-comm… Unrest… Unrest…
+##  4 American Chemical Society                           Unrestri… Unrest… Unrest…
+##  5 Association for Computing Machinery                 Non-comm… Unrest… Unrest…
+##  6 American Geophysical Union                          Unrestri… Unrest… Unrest…
+##  7 American Heart Association                          Unrestri… Versio… Unrest…
+##  8 American Institute of Physics                       Unrestri… Unrest… Unrest…
+##  9 American Institute of Aeronautics and Astronautics  Unrestri… Unrest… Unrest…
+## 10 American Physical Society                           Unrestri… Unrest… Unrest…
+## # … with 58 more rows</code></pre>
+<p>This looks good so I’ll save the data as a comma-separated values (.csv) for later use.</p>
+<pre class="r"><code>readr::write_csv(preprint_policy, &#39;data/preprint_policy.csv&#39;)</code></pre>
