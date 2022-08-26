@@ -13,7 +13,7 @@ show_action_link: true
 show_social_links: true
 text_align_left: true
 title: Jason A. Moggridge
-subtitle: 'Research assistant and data analyst @ LTRI'
+subtitle: 'Research assistant and data analyst'
 type: home
 ---
 
