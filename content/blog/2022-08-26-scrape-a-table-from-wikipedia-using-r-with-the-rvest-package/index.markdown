@@ -139,8 +139,8 @@ This looks good now so I'll save the data as a comma-separated values (.csv) for
 readr::write_csv(preprint_policy, 'data/preprint_policy.csv')
 ```
 
-\-\-\-\--
+-----
 
 This was a really simple example and there are certainly more challenging web-scraping scenarios that require targeting a specific table(s) or have other obstacles in parsing. If this simple script solves your problem though, I don't think you'll find a quicker and easy way to grab a table from the web.
 
-\-\-\-\--
+-----
