@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Endeavours
 description: Learn about projects that I've helped create
 author: Jason Moggridge
 cascade:
