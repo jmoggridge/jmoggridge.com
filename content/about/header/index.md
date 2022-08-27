@@ -9,7 +9,7 @@ headline: ""
 
 <!-- this is a subheadline -->
 
-As a research assistant and data analyst, I work on a number of research projects that mostly involve data management, analysis, and reporting. This is my dream job because I love creating models, plots, parameterized reports, websites, and interactive apps. I use R for most of my data science work, but recently I've been learning JS, React, and Go for web development. I'm passionate about coding, automating repetitive tasks, and creating reproducible research.
+My work as a data scientist mostly involve data management, analysis, and reporting. This is my dream job because I love creating models, plots, parameterized reports, websites, and interactive apps. I use R for most of my data science work, but recently I've been learning JS, React, and NextJS to get better at web development. I'm passionate about coding, automating repetitive tasks, and creating reproducible research.
   
 
 <!--:maple_leaf: -->

@@ -1,4 +1,6 @@
 ---
+title: "Scrape a table from Wikipedia using R"
+subtitle: "...without knowing anything about xml or css"
 author: "Jason A. Moggridge"
 date: '2022-08-26'
 slug: []
@@ -11,9 +13,8 @@ tags:
   - Tutorial
 ---
 
-# Scrape a table from Wikipedia using R
 
-#### ...without knowing anything about xml or css
+
 
 ----
 

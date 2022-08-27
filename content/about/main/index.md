@@ -6,8 +6,8 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: false
 intro: |
-  ## Blog
-  Check out my blog, projects, and other content below. I'm trying to post content but I suck at this and apparently can't make a blogpost appear on deployment even though I can see it when. I. serve. the. site. locally. 
+  ## Blog  
+  Check out my blog, projects, and other content below.   
 show_outro: true
 ---
 
