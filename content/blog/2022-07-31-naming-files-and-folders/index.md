@@ -51,22 +51,22 @@ Some languages enforce file structure, but if you don't have that then you're go
 
 Look at these beautiful names! I mean, sure they might not tell you everything about how the project works but I assure you their contents are related to their names, which are very informative. I am so very proud of these names.
 
-    .
-    ├── data
-    │   └── db.rds
-    ├── results
-    │   ├── analyzer_gt_summary.rds
-    │   ├── analyzer_gt_individual_summary.rds
-    │   ├── analyzer_plot_summary.rds
-    │   └── analyzer_plot_individuals.rds
-    ├── R
-    │   ├── Emailer.R
-    │   ├── analyzer.R
-    │   ├── controller.R
-    │   ├── email.Rmd
-    │   ├── monitor.R
-    │   └── reporter.R
-    ├── README.md
-    ├── Emailer.log
-    ├── Emailer.Rproj
-    └── scheduler.R
+    - someproject_autoemailer
+      ├── data
+      │   └── db.rds
+      ├── results
+      │   ├── analyzer_gt_summary.rds
+      │   ├── analyzer_gt_individual_summary.rds
+      │   ├── analyzer_plot_summary.rds
+      │   └── analyzer_plot_individuals.rds
+      ├── R
+      │   ├── Emailer.R
+      │   ├── analyzer.R
+      │   ├── controller.R
+      │   ├── email.Rmd
+      │   ├── monitor.R
+      │   └── reporter.R
+      ├── README.md
+      ├── Emailer.log
+      ├── Emailer.Rproj
+      └── scheduler.R

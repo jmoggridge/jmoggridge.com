@@ -1,0 +1,91 @@
+---
+author: "Jason A. Moggridge"
+date: '2022-08-26'
+slug: []
+excerpt: "Easy web scraping in R with tidyverse and the awesome rvest package"
+draft: False
+categories:
+  - Coding
+tags:
+  - R
+  - Tutorial
+---
+
+# Scrape a table from Wikipedia using R
+
+#### ...without knowing anything about xml or css
+
+----
+
+I want to get the data from the table on [this page](https://en.wikipedia.org/wiki/List_of_academic_publishers_by_preprint_policy) but copy/paste isn't working well and I just want the data *now*, I've got a ton of work to do! 
+
+---
+
+#### Setup
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = F, warning = F)
+```
+
+I use the `tidyverse` and `rvest` packages for this task.
+
+```{r}
+# install.packages(c('tidyverse', 'rvest'))
+library(tidyverse)
+library(rvest)
+
+# This is our url
+my_url <- "https://en.wikipedia.org/wiki/List_of_academic_publishers_by_preprint_policy"
+```
+
+#### Getting data
+
+To get the table: `read_html()` gets the entire html content of the webpage; `html_node()` extracts the first table; then `html_table()` parses that element into an R data.frame that is easy to work with.
+
+```{r}
+(
+  my_table <- 
+    my_url |> 
+    rvest::read_html() |>
+    rvest::html_node('table') |> 
+    rvest::html_table()
+)
+```
+
+#### Cleanup
+
+And we're done! Just kidding, the parser had a bit of trouble with the double header rows, where the three columns `Location`, `Version`, and `License` were grouped under `Restriction`. Currently, those three columns are named `Restriction`; that's not good - we need unique names to differentiate them.
+
+To fix this, we'll just use the first row of the table to set the column names and then drop the first row from the table with `slice()`.
+
+```{r}
+(
+  fixed_table <- 
+    my_table |> 
+    rlang::set_names(my_table[1,]) |>
+    dplyr::slice(-1)
+)
+```
+
+Before I save this data, I'll drop the `source` column (I didn't scrape the links for those anyway) and I'll make the names lower snake-case with `janitor::clean_names()` since I like having a consistent style for column names.
+
+```{r}
+(
+  preprint_policy <- 
+    fixed_table |> 
+    select(-Source) |> 
+    janitor::clean_names()
+)
+```
+
+This looks good now so I'll save the data as a comma-separated values (.csv) for later use.
+
+```{r eval=FALSE}
+readr::write_csv(preprint_policy, 'data/preprint_policy.csv')
+```
+
+\-\-\-\--
+
+This was a really simple example and there are certainly more challenging web-scraping scenarios that require targeting a specific table(s) or have other obstacles in parsing. If this simple script solves your problem though, I don't think you'll find a quicker and easy way to grab a table from the web.
+
+\-\-\-\--
