@@ -9,7 +9,7 @@ headline: ""
 
 <!-- this is a subheadline -->
 
-My work as a data scientist mostly involves data management, analysis, and reporting. This is my dream job because I love creating models, plots, parameterized reports, websites, and interactive apps. I use R for most of my data science work, but recently I've been learning JavaScript, TypeScript, React, and NextJS to get better at web development. I'm passionate about coding, automating repetitive tasks, and creating reproducible research.
+My work as a data scientist mostly involves data management, analysis, and reporting. This is my dream job because I love creating models, visualization, websites, and interactive apps. I use R for most of my data science work, but recently I've been learning JavaScript, TypeScript, React, and NextJS to get better at web development. I'm passionate about coding, automating repetitive tasks, and creating reproducible research.
   
 
 <!--:maple_leaf: -->

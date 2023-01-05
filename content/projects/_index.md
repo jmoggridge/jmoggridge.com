@@ -1,6 +1,6 @@
 ---
-title: Endeavours
-description: Learn about projects that I've helped create
+title: Projects
+description: Things I've been working on, past and present.
 author: Jason Moggridge
 cascade:
   show_author_byline: true

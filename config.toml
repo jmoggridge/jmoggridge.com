@@ -90,9 +90,9 @@ enableEmoji = true
   # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
   [[params.social]]
-      icon      = "twitter" # icon name without the 'fa-'
+      icon      = "mastodon" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/quaxlikeaduck"
+      url       = "https://vis.social/@jmoggridge"
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
@@ -128,9 +128,9 @@ enableEmoji = true
     url = "/blog/"
     weight = 2
   [[menu.header]]
-    name = "Work"
+    name = "Projects"
     title = "Project Portfolio"
-    url = "/work/"
+    url = "/projects/"
     weight = 3
 
   # Configure footer  
