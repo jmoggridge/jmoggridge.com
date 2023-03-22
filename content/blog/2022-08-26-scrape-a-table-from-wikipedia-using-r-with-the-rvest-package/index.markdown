@@ -65,7 +65,7 @@ To get the table: `read_html()` gets the entire html content of the webpage; `ht
 ##  6 Association for Computing Machinery            Non-co… Unrest… Unrest… [6]   
 ##  7 American Geophysical Union                     Unrest… Unrest… Unrest… [7]   
 ##  8 American Heart Association                     Unrest… Versio… Unrest… [8]   
-##  9 American Institute of Physics                  Unrest… Unrest… Unrest… [9]   
+##  9 American Institute of Physics (AIP Publishing) Unrest… Unrest… Unrest… [9]   
 ## 10 American Institute of Aeronautics and Astrona… Unrest… Unrest… Unrest… [10]  
 ## # … with 59 more rows, and abbreviated variable names ¹​Restrictions,
 ## #   ²​Restrictions, ³​Restrictions
@@ -98,7 +98,7 @@ To fix this, we'll just use the first row of the table to set the column names a
 ##  5 Association for Computing Machinery            Non-co… Unrest… Unrest… [6]   
 ##  6 American Geophysical Union                     Unrest… Unrest… Unrest… [7]   
 ##  7 American Heart Association                     Unrest… Versio… Unrest… [8]   
-##  8 American Institute of Physics                  Unrest… Unrest… Unrest… [9]   
+##  8 American Institute of Physics (AIP Publishing) Unrest… Unrest… Unrest… [9]   
 ##  9 American Institute of Aeronautics and Astrona… Unrest… Unrest… Unrest… [10]  
 ## 10 American Physical Society                      Unrest… Unrest… Unrest… [11]  
 ## # … with 58 more rows, and abbreviated variable name ¹​Location
@@ -127,7 +127,7 @@ Before I save this data, I'll drop the `source` column (I didn't scrape the link
 ##  5 Association for Computing Machinery                 Non-comm… Unrest… Unrest…
 ##  6 American Geophysical Union                          Unrestri… Unrest… Unrest…
 ##  7 American Heart Association                          Unrestri… Versio… Unrest…
-##  8 American Institute of Physics                       Unrestri… Unrest… Unrest…
+##  8 American Institute of Physics (AIP Publishing)      Unrestri… Unrest… Unrest…
 ##  9 American Institute of Aeronautics and Astronautics  Unrestri… Unrest… Unrest…
 ## 10 American Physical Society                           Unrestri… Unrest… Unrest…
 ## # … with 58 more rows
