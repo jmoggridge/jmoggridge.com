@@ -4,11 +4,11 @@ action_link: /about
 action_type: text
 description: |
     <br>
-    I'm a bioinformatician working in biomedical research. I extract knowledge from complex data using code and build software tools to help other scientists with their own research and publishing. 
+    I'm a bioinformatician working in biomedical research. I find insights in complex data using code and build software to help other scientists with their own research and publishing. 
     <br>
 image_left: true
 images:
-- img/friends.png
+- img/kayak.png
 show_action_link: true
 show_social_links: true
 text_align_left: true
